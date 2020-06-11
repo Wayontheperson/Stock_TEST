@@ -22,5 +22,23 @@ namespace NoMoreBeer.Strategies
             }
                 
         }
+        
+        protected override void Sell(List<Price> prices)
+        {
+            int i = 1;
+            while (i<=prices.Count)
+            {
+                if (prices[i].Value>58000)
+                { 
+                    break;
+                }
+                i++;
+            }
+            foreach (var trade in Trades)
+            {
+                SellOne(trade, prices[i]);
+            }
+
+        }
     }
 }

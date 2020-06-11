@@ -54,7 +54,7 @@ namespace NoMoreBeer.Strategies
         /// </summary>
         /// <param name="prices"></param>
         protected virtual void Sell(List<Price> prices)
-        {
+        { 
             Price lastPrice = prices[prices.Count - 1];
 
             foreach (var trade in Trades)
