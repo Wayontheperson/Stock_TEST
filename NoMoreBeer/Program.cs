@@ -23,6 +23,7 @@ namespace NoMoreBeer
                 Run(StockName, FromDate);
                 Console.WriteLine(StockName);
                 Console.ReadLine();
+                
             }
         }
 
@@ -31,13 +32,14 @@ namespace NoMoreBeer
             List<Price> prices = PriceRepository.Instance.Load(stockName, fromDate);
 
             //Strategy strategy = new OnePerDayStrategy();
-            Strategy strategy = new SimpleRateStrategy();
+            Strategy strategy = new TryYourLuck();
 
             strategy.Trade(prices);
 
             Console.WriteLine(strategy);
             
             decimal marketRate = prices[0].Value.GetRate(prices[prices.Count - 1].Value);
+            
             
             Console.WriteLine($"시장 : {marketRate:P2}");
         }

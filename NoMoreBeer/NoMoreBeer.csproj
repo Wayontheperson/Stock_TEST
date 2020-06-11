@@ -67,6 +67,7 @@
     <Compile Include="Strategies\OnePerDayStrategy.cs" />
     <Compile Include="Strategies\SimpleRateStrategy.cs" />
     <Compile Include="Strategies\Strategy.cs" />
+    <Compile Include="Strategies\TryYourLuck.cs" />
     <Compile Include="Trade.cs" />
   </ItemGroup>
   <ItemGroup>

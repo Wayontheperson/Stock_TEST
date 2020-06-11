@@ -72,6 +72,7 @@ namespace NoMoreBeer.Strategies
 
             Trades.Add(trade);
         }
+        
 
         protected void SellOne(Trade trade, Price price)
         {
