@@ -38,7 +38,7 @@ namespace NoMoreBeer
 
             Console.WriteLine(strategy);
             
-            decimal marketRate = prices[0].Value.GetRate(prices[prices.Count - 1].Value);
+            decimal marketRate = strategy.BuySum.GetRate(strategy.SellSum);
             
             
             Console.WriteLine($"시장 : {marketRate:P2}");

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Qfo9M+iz2esrEr8H2/bBM6TihybVgMLawYBxU/J6Jb2olJpbTEabidvwD+54IUXMa5sccH/RiD/lXzO6JIysBQ==",
+  "dgSpecHash": "PHixwETyMzGUuFoJMqZsX36AU5thOgSlJJLxxz3kH6gxCe1fpuRd/aq4aFT+5mPQS4zef4QCB838D+PTiUkRHw==",
   "success": true,
-  "projectFilePath": "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\WinterIsComing.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\t\\Stock_TEST\\WinterIsComing\\WinterIsComing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kccistc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

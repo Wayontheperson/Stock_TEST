@@ -5,7 +5,7 @@ namespace NoMoreBeer.Strategies
 {
     public class TryYourLuck : Strategy
     {
-        public static int n;
+        
         protected override void Buy(List<Price> prices)
         {
             int i = 0;
@@ -15,7 +15,6 @@ namespace NoMoreBeer.Strategies
                 if (prices[i+31].Value <= avg)
                 {
                     BuyOne(prices[i+31]);
-                    n = i + 31;
                 }
 
                 i++;
@@ -33,12 +32,22 @@ namespace NoMoreBeer.Strategies
                     break;
                 }
                 i++;
+                
             }
+            int sellstocnmber=CheckNubmber(i);
             foreach (var trade in Trades)
             {
-                SellOne(trade, prices[i]);
+                SellOne(trade, prices[sellstocnmber]);
             }
 
+        }
+
+        public static int CheckNubmber(int sellstocknumber)
+        {
+            int number;
+            number = sellstocknumber;
+
+            return number;
         }
     }
 }

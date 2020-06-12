@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\WinterIsComing.csproj": {}
+    "C:\\t\\Stock_TEST\\WinterIsComing\\WinterIsComing.csproj": {}
   },
   "projects": {
-    "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\WinterIsComing.csproj": {
+    "C:\\t\\Stock_TEST\\WinterIsComing\\WinterIsComing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\WinterIsComing.csproj",
+        "projectUniqueName": "C:\\t\\Stock_TEST\\WinterIsComing\\WinterIsComing.csproj",
         "projectName": "WinterIsComing",
-        "projectPath": "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\WinterIsComing.csproj",
-        "packagesPath": "C:\\Users\\ji-hyeon\\.nuget\\packages\\",
-        "outputPath": "C:\\sync\\sources\\NoMoreBeer\\WinterIsComing\\obj\\",
+        "projectPath": "C:\\t\\Stock_TEST\\WinterIsComing\\WinterIsComing.csproj",
+        "packagesPath": "C:\\Users\\kccistc\\.nuget\\packages\\",
+        "outputPath": "C:\\t\\Stock_TEST\\WinterIsComing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ji-hyeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kccistc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
